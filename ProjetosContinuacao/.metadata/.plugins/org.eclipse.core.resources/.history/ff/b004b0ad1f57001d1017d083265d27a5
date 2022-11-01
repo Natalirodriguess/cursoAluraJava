@@ -1,0 +1,19 @@
+
+public class AcaoBolsa {
+private CalculadorImposto ci;
+	
+	public AcaoBolsa() {
+
+		this.ci = new CalculadorImposto();
+		
+	}
+	
+	public void setValor() {
+		this.ci.setValor();
+	}
+	
+	public double getValor() {
+		return this.ci.getValor();
+	}
+
+}

@@ -1,0 +1,9 @@
+package sintaxeVariaveis_e_Fluxo;
+
+public class TestaCaractere {
+	
+	public static void main(String [] args) {
+		char letraUnica = 'a';
+		System.out.println(letraUnica);
+	}
+}

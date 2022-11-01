@@ -1,0 +1,11 @@
+
+public class CalculadorImposto {
+	
+	private double soma; 
+	
+	
+	public void registra(Tributavel t) {
+		double valor =  t.getValor();
+		this.soma += valor;
+	}
+}

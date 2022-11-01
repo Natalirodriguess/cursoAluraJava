@@ -1,0 +1,17 @@
+package sintaxeVariaveis_e_Fluxo;
+
+public class DesafioFibonacci {
+	
+	public static void main (String [] args) {
+		
+		int proximo = 0;
+		int anterior = 1;
+		for (int contador = 0 ; contador <= 5; contador ++) {
+			proximo = proximo +anterior;
+			anterior = proximo;
+			System.out.println(proximo);
+			System.out.println(anterior);
+		}
+	}
+
+}

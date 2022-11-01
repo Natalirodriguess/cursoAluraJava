@@ -1,0 +1,10 @@
+package sintaxeVariaveis_e_Fluxo;
+
+public class TestaCondicional {
+	
+	public static void main (String [] args) {
+		System.out.println("TESTANDO CONDICIONAIS");
+		System.out.println("----------------------");
+	}
+
+}

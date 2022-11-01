@@ -1,0 +1,17 @@
+package byteBank_herdado;
+
+public class TesteReferencia {
+	public static void main (String [] agrs) {
+		Gerente g1 = new Gerente();
+		g1.setNome("Marcos");
+		g1.setSalario(8000);
+		
+		System.out.println(g1.getNome());
+		
+		ControleBonificacao controle = new ControleBonificacao ();
+		controle.registra(g1);
+		
+	}
+	
+
+}

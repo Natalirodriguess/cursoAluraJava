@@ -1,0 +1,8 @@
+package sintaxeVariaveis_e_Fluxo;
+
+public class TestaPontoFlutuante {
+	
+	public static void main (String [] args) {
+		System.out.println("New teste");
+	}
+}

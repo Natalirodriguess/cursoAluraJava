@@ -1,0 +1,23 @@
+package byteBank_herdado;
+
+public class TestaGerente {
+	public static void main (String [] args) {
+		Gerente gerente = new Gerente ();
+		gerente.setNome("Natali");
+		gerente.setCpf("222.333.444-55");
+		gerente.setSalario(8000);
+		gerente.setSenha(22222);
+		
+		System.out.println(gerente.getNome());
+		System.out.println(gerente.getCpf());
+		System.out.println(gerente.getSalario());
+		if (gerente.autenticou(12222)) {
+			System.out.println("Senha autenticada com sucesso!");
+		} else {
+			System.out.println("Tente novamente!");
+		}
+		
+		System.out.println("----------------");
+	}
+
+}

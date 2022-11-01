@@ -1,0 +1,13 @@
+package sintaxeVariaveis_e_Fluxo;
+
+public class DesafioFatorialDeUmNumero {
+	
+	public static void main(String[] args) {
+		int multiplicador = 1;
+		for (int numero = 4 ; numero >= 0; numero -=1 ) {
+			 multiplicador *= 1;
+			System.out.println(multiplicador);
+		}
+	}
+
+}

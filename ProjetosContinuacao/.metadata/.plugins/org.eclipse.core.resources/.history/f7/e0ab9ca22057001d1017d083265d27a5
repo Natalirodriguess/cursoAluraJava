@@ -1,0 +1,30 @@
+
+public class ContaCorrente extends Conta{
+	
+	private CalculadorImposto ci;
+	
+	public ContaCorrente(int agencia, int numero) {
+		super(agencia, numero);
+		this.ci = new CalculadorImposto();
+		
+	}
+	
+	public void setValor() {
+		this.ci.setValor();
+	}
+	
+	public double getValor() {
+		return this.ci.getValor();
+	}
+	@Override
+	public boolean saca(double valor) {
+		double valorASacar = valor + 0.2;
+		return super.saca(valorASacar);
+	}
+
+	@Override
+	public void deposita(double valor) {
+		super.saldo += valor;
+		
+	}
+}

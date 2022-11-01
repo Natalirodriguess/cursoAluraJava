@@ -1,0 +1,11 @@
+package byteBank_herdado;
+
+public class TesteReferencia {
+	public static void main (String [] agrs) {
+		Funcionario g1 = new Gerente();
+		g1.setNome("Marcos");
+		
+		System.out.println(g1.getNome());
+	}
+
+}

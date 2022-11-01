@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\thoma\Desktop\PROGRAMAÇÃO\Cursos Alura\Java POO\Curso 1\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2159265395.index
+2020020601.index
+3532186133.index

@@ -1,0 +1,8 @@
+package byteBank_herdado;
+
+public abstract interface Autenticavel {
+	
+	public abstract void setSenha();
+	
+	public abstract boolean autentica (int senha) ;
+	}

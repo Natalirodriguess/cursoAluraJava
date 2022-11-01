@@ -1,0 +1,21 @@
+package sintaxeVariaveis_e_Fluxo;
+
+public class TestaCondicional2 {
+	public static void main(String [] args) {
+		
+		System.out.println("TESTANDO CONDICIONAIS");
+		System.out.println("----------------------");
+		System.out.println("|Clube dos adultos|");
+		int idade = 17 ; 
+		int quantidadePessoas = 1;
+		boolean acompanhado = true;
+		
+		if (idade >= 18 || quantidadePessoas >= 2 && acompanhado) {
+			System.out.println("Seja bem-vindo!");
+		} else {
+			
+			System.out.println("Você ainda não é maior de idade!");
+		}
+	}
+
+}

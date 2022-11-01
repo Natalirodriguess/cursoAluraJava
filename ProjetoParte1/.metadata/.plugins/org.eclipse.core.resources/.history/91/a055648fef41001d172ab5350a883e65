@@ -1,0 +1,9 @@
+package sintaxeVariaveis_e_Fluxo;
+
+public class TestaLacos2 {
+
+	public static void main (String [] args) {
+		
+		
+	}
+}

@@ -1,0 +1,17 @@
+
+public class SeguroDeVida {
+	
+	private CalculadorImposto ci;
+	
+	public SeguroDeVida() {
+
+		this.ci = new CalculadorImposto();
+		
+	}
+	
+
+	
+	public double getValor() {
+		return this.ci.getValor();
+	}
+}

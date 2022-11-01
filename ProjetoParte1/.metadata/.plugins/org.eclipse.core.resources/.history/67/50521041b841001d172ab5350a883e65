@@ -1,0 +1,7 @@
+package sintaxeVariaveis_e_Fluxo;
+
+public class TestaWhile {
+	public static void main(String[] args) {
+		
+	}
+}

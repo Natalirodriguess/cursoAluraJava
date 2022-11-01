@@ -1,0 +1,18 @@
+
+public class CriaConta {
+	
+	public static void main (String [] args) {
+		
+		//Conta primeira_conta = new Conta();
+		//primeira_conta.saldo = 250d;
+		
+		//System.out.println(primeira_conta.saldo);
+		int numero = 0;
+		
+		while(numero >= 0) {
+			System.out.println(numero);
+		}
+		
+	}
+
+}

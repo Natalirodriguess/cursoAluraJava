@@ -1,0 +1,20 @@
+package sintaxeVariaveis_e_Fluxo;
+
+public class TestaCaractere {
+	
+	public static void main(String [] args) {
+		char letraUnica = 'a';
+		System.out.println(letraUnica);
+		char valor = 65;
+		System.out.println(valor);
+		
+		valor = (char) (valor + 1);
+		System.out.println(valor);
+		
+		String palavra = "Cursos alura";
+		System.out.println(palavra);
+		
+		palavra = palavra + 2020;
+		System.out.println(palavra);
+		}
+}

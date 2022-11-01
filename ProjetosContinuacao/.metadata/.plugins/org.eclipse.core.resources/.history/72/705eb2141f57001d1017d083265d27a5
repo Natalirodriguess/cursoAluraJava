@@ -1,0 +1,12 @@
+
+public class CalculadorImposto {
+	private double valor;
+	
+	public void setValor() {
+		this.valor = valor;
+	}
+	
+	public double getValor() {
+		return this.valor;
+	}
+}

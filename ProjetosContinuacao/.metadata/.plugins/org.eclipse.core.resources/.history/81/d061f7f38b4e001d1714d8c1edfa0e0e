@@ -1,0 +1,11 @@
+package byteBank_herdado;
+
+public class TestaGerente {
+	public static void main (String [] args) {
+		Gerente gerente = new Gerente ();
+		gerente.setNome("Natali");
+		gerente.setCpf("222.333.444-55");
+		gerente.setSalario(8000);
+	}
+
+}

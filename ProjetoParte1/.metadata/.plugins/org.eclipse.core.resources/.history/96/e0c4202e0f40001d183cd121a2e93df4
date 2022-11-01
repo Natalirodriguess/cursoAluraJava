@@ -1,0 +1,12 @@
+package sintaxeVariaveis_e_Fluxo;
+
+public class TestaPontoFlutuante {
+	
+	public static void main (String [] args) {
+		double salario;
+		salario = 1250.50 ;
+		System.out.println("O salário é "+ salario);
+		double divisao = 4/3;
+		System.out.println("A divisão resulta em "+ divisao);
+	}
+}

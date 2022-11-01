@@ -1,0 +1,17 @@
+package byteBank_herdado;
+
+public class Gerente extends Funcionario {
+	private int senha;
+	
+	public int getSenha() {
+		return this.senha;
+	}
+	
+	public boolean autenticou (int senha) {
+		if (this.senha == senha) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+}

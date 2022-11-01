@@ -1,0 +1,6 @@
+
+public interface Tributavel {
+	
+	public void setValor();
+	public double getValor();
+}

@@ -1,0 +1,15 @@
+package byteBank_herdado;
+
+public class TestaFuncionario {
+
+	public static void main(String [] args) {
+		
+		Funcionario funcionario = new Funcionario();
+		funcionario.setNome("Thomas");
+		funcionario.setCpf("111.222.333-44");
+		funcionario.setSalario(8000);
+		
+		System.out.println(funcionario.getBonificacao());
+		
+	}
+}

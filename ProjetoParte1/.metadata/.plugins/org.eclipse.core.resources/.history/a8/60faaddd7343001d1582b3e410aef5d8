@@ -1,0 +1,26 @@
+package sintaxeVariaveis_e_Fluxo;
+
+public class DesafioFibonacci {
+	
+	public static void main (String [] args) {
+		System.out.println("==================");
+		System.out.println("DESAFIO FIBONACCI");
+		System.out.println("==================");
+		
+		System.out.println("Vamos observar que a sequência!");
+		System.out.println("fibonacci se dá, da seguinte forma:");
+		System.out.println("1");
+		System.out.println("1");
+		System.out.println("2");
+		System.out.println("3");
+		System.out.println("5");
+		System.out.println("8");
+		System.out.println("E assim se segue, adiante!");
+		System.out.println("Perceba que o próximo número da sequência,");
+		System.out.println("é a SOMA do número anterior, com o anterior do anterior"); 
+		System.out.println( "com o anterior do anterior. Perceba também que, os números anteriores vão"+
+				"sempre mudando. Então, teremos as seguintes variáveis: numero_anterior"+ 
+		", numero_posterior e a soma");
+			
+		}
+}

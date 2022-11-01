@@ -1,0 +1,18 @@
+package sintaxeVariaveis_e_Fluxo;
+
+public class DesafioFatorialDeUmNumero {
+	
+	public static void main(String [] args) {
+		
+		int fatorial = 1;
+		
+		for (int i = 4 ; i >= 1 ; i --) {
+			fatorial = fatorial* i;
+			System.out.println(fatorial);
+		}
+		
+
+	
+		
+	}
+}
