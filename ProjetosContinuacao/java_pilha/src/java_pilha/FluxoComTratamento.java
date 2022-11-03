@@ -30,7 +30,7 @@ public class FluxoComTratamento {
 			System.out.println(i);
 			//int a = i / 0;
 			Conta c = null;
-			c.deposita(200.0);
+			//c.deposita();
 		}
 		
 		System.out.println("Fim do metodo2");
