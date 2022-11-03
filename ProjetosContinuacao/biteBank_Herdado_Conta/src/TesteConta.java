@@ -15,7 +15,11 @@ public class TesteConta {
 		ContaPoupanca contaPoupanca = new ContaPoupanca(111, 112);
 		contaPoupanca.deposita(200);
 		
+		try {
 		contaCorrente.transfere(10, contaPoupanca);
+		} catch (SaldoInsuficienteException ex){
+			System.out.println(ex.getMessage());
+		}
 		
 		System.out.println("CC: " + contaCorrente.getSaldo());
 		System.out.println("CP: " + contaPoupanca.getSaldo());
