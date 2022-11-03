@@ -1,4 +1,4 @@
-
+package modelo;
 public class CalculadorImposto {
 	
 	private double totalImposto ; 
