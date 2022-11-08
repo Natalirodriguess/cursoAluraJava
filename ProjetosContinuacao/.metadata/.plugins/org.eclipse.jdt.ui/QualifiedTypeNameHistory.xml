@@ -4,4 +4,8 @@
     <fullyQualifiedTypeName name="ContaCorrente"/>
     <fullyQualifiedTypeName name="ContaPoupanca"/>
     <fullyQualifiedTypeName name="java.lang.AutoCloseable"/>
+    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.especial.ContaEspecial"/>
+    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Conta"/>
+    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Cliente"/>
+    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.ContaCorrente"/>
 </qualifiedTypeNameHistroy>

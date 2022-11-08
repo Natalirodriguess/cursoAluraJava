@@ -8,17 +8,28 @@
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
 		<list key="orderedElements">
+			<item value="org.eclipse.jdt.ui.JavadocView"/>
 			<item value="org.eclipse.ui.views.ResourceNavigator"/>
 		</list>
 		<list key="orderedProviders">
 			<item value="org.eclipse.e4.ui.parts"/>
+			<item value="org.eclipse.e4.ui.parts"/>
 		</list>
 		<list key="textEntries">
-			<item value="2"/>
+			<item value="1"/>
+			<item value="3"/>
 		</list>
 		<list key="textArray">
+			<item value="javado"/>
 			<item value="navigator"/>
 			<item value="navig"/>
+			<item value="navigat"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.jdt.internal.ui.jarpackager.JarPackageWizard"/>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.jdt.ui.Java"/>
 		</list>
 	</section>
 </section>

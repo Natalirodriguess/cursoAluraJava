@@ -1,4 +1,11 @@
 package br.com.bytebank.banco.modelo;
+
+/**
+ * Classe que representa de forma abstrata, uma conta.
+ * @author Natalí Rodrigues
+ *
+ */
+ 
 public abstract class Conta {
 	
 	protected double saldo;
@@ -6,7 +13,11 @@ public abstract class Conta {
 	private int numero;
 	private Cliente titular = new Cliente();
 	private static int total;
-	
+	/**
+	 * Construtor para inicializar o objeto Conta, a partir da agencia e número.
+	 * @param agencia
+	 * @param numero
+	 */
 
 	public Conta(int agencia, int numero) {
 		Conta.total++;
@@ -17,6 +28,11 @@ public abstract class Conta {
 	}
 	
 	public abstract void deposita(double valor);
+	/**
+	 * Valor precisa ser maior que zero.
+	 * @param valor
+	 * @throws SaldoInsuficienteException
+	 */
 	
 	public void saca (double valor) throws SaldoInsuficienteException{
 		if (this.saldo < valor) {
@@ -70,5 +86,19 @@ public abstract class Conta {
 	
 	public static int getTotal () {
 		return Conta.total;
+	}
+	
+	public boolean ehIgual(Conta conta) {
+		if (this.agencia == conta.agencia && this.getNumeroDaConta() == conta.getNumeroDaConta()) {
+		return true;
+		} else {
+			return false;
+		}
+	}
+	
+	@Override
+	public String toString() {
+		
+		return "numero: " + this.numero + " Agencia: " + this.agencia;
 	}
 }
