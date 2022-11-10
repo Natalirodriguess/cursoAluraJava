@@ -5,7 +5,18 @@
     <fullyQualifiedTypeName name="ContaPoupanca"/>
     <fullyQualifiedTypeName name="java.lang.AutoCloseable"/>
     <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.especial.ContaEspecial"/>
-    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Conta"/>
+    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.ContaPoupanca"/>
     <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Cliente"/>
+    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.GuardadorDeContas"/>
+    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Conta"/>
     <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.ContaCorrente"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.util.Vector"/>
+    <fullyQualifiedTypeName name="br.com.bytebank.banco.teste.util.Teste"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

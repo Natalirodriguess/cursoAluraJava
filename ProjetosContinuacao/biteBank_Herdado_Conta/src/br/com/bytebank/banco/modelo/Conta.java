@@ -6,7 +6,7 @@ package br.com.bytebank.banco.modelo;
  *
  */
  
-public abstract class Conta {
+public abstract class Conta extends Object implements Comparable <Conta> {
 	
 	protected double saldo;
 	private int agencia;
@@ -88,7 +88,9 @@ public abstract class Conta {
 		return Conta.total;
 	}
 	
-	public boolean ehIgual(Conta conta) {
+	@Override
+	public boolean equals(Object ref) {
+		Conta conta = (Conta) ref;
 		if (this.agencia == conta.agencia && this.getNumeroDaConta() == conta.getNumeroDaConta()) {
 		return true;
 		} else {
@@ -99,6 +101,13 @@ public abstract class Conta {
 	@Override
 	public String toString() {
 		
-		return "numero: " + this.numero + " Agencia: " + this.agencia;
+		return "Numero: " + this.numero + " Agencia: " + this.agencia + " Saldo: " + this.saldo;
 	}
+	
+	@Override
+	public int compareTo(Conta outra) {
+		
+		return Double.compare(this.saldo, outra.saldo);
+	}
+	
 }
