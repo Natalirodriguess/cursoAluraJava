@@ -1,9 +1,0 @@
-package java_pilha;
-
-public class TesteContaComExcecaoChecked {
-	
-	public static void main(String [] args) throws MinhaExcecao {
-		Conta c = new Conta();
-		c.deposita();
-	}
-}
