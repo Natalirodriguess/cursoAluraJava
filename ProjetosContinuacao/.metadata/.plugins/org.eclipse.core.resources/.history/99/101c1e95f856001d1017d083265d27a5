@@ -1,5 +1,0 @@
-package byteBank_herdado;
-
-public class Cliente extends FuncionarioAutenticavel{
-
-}
