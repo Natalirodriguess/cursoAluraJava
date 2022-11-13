@@ -1,2 +1,3 @@
-Testanto a primeira escrita de dados.
+Testanto a primeira escrita de dados com PrintStream
+
 Vamos lá! 
