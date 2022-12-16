@@ -1,17 +1,19 @@
 package br.com.bytebank.banco.modelo;
 
+import java.io.Serializable;
+
 /**
  * Classe que representa de forma abstrata, uma conta.
  * @author Natalí Rodrigues
  *
  */
  
-public abstract class Conta extends Object implements Comparable <Conta> {
+public abstract class Conta extends Object implements Comparable <Conta>, Serializable {
 	
 	protected double saldo;
 	private int agencia;
 	private int numero;
-	private Cliente titular = new Cliente();
+	private transient Cliente titular = new Cliente();
 	private static int total;
 	/**
 	 * Construtor para inicializar o objeto Conta, a partir da agencia e número.

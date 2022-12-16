@@ -1,11 +1,14 @@
 package br.com.bytebank.banco.modelo;
+
+import java.io.Serializable;
+
 /**
  * Classe Cliente no ByteBank, que apenas possui métodos que modificam e visulizam os atributos 
  * de um Cliente.
  * @author Natalí Rodrigues
  *
  */
-public class Cliente {
+public class Cliente  {
 	private String nome;
 	private String cpf;
 	private String profissao;
